@@ -19,6 +19,34 @@ header, footer {
     padding: 20px 0;
 }
 
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
 .about, .skills, .education, .certification, .projects, .contact {
     margin-bottom: 30px;
 }
@@ -93,3 +121,4 @@ footer {
 .contact-info a:hover {
     color: #333;
 }
+ 
